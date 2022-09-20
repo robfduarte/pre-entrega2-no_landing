@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Seccion Header */
+
+.header-container{
+    background-color: #051622;
+    color:#DEB992;
+    font-size: 20px;
+    padding: 15px 15px;
+    display: flex;
+    justify-content:right;
+    position: sticky;
+    top: 0;
+    
+}
+
+.header-nav{
+    width: 50%;
+    
+}
+
+.menu li a:hover {
+    color:rgb(244, 154, 93) !important;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  /* Seccion HOME */
+
+.home-container{
+    padding: 250px 40px;
+    background-color:#DEB992 ;
+    color: #051622 ;
+}  
+.home-text {
+    height: 40%;
+    font-weight: 300;
+    font-size: x-large; 
+    text-align: center;
+    letter-spacing: .2em;
+    line-height: 2em;
+}
+
+.home-text-main{
+    font-size: 60px;
+    font-weight:900;
+}
+
+.home-social{
+    padding: 0px 350px;
+    display: flex;
+    justify-content:space-between;    
+    transform: scale(0.5, 0.5);
+    opacity: 1;
+}
+
+.social-icons:hover {
+    opacity: .4;
+}
+
+.home-whatsapp{
+    transform: scale(0.8, 0.8);
+    position: fixed;
+    width:80px;
+	height:80px;
+	bottom:50px;
+	right:50px;
+    opacity: 1;
+
+}
+
+/* Estilos de Textos */
+
+.h1-heading{
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: .1em;
+    line-height: 1.5em;
+}
+
+.h2-heading{
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    line-height: 1.5em;
+}
+
+.p-paragraph{
+    font-family:Arial, Helvetica, sans-serif
+    font-size: 20px;
+}
+
+  /* Seccion phrase */
+
+.phrase1-container{
+    padding: 40px 80px;
+    background-color:#051622;
+    color: #ece3db ;
+}
+
+
+
+  /* Seccion ABOUT US */
+
+.aboutUs-container {
+    padding: 250px 40px;
+    background-color:#ece3db ;
+    color: #051622 ;
+    display: flex;
+    justify-content:center;    
+}
+
+.about-img{
+    padding: 0px 100px;
+}
+
+  /* Seccion SKILLS */
+
+.skills-container {
+    padding: 150px 100px;
+    background-color:#DEB992 ;
+    color: #051622 ;
+}
+
+.tech-list{
+    padding-left: 100px;
+    list-style: square;
+    line-height: 1.5em;
+}
+
+  /* Seccion EXPERIENCE */
+
+.experience-container {
+    padding: 150px 100px;
+    background-color:#ece3db ;
+    color: #051622 ;
+}
+
+.experience-boxes{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.experience-box{
+    text-align: center;
+    width:250px;
+    border-style:solid;
+    border-width: 2px;
+    border-color: #DEB992;
+    padding: 10px;
+}
+
+.p-experience{
+ font-size: smaller;
+}
+
+  /* Seccion PORTFOLIO */
+
+.portfolio-container {
+    padding: 100px 100px;
+    background-color:#DEB992 ;
+    color: #051622 ;
+}
+
+.portofolio-images{
+    padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-img:hover {
+    opacity: 1;
+}
+
+.portfolio-img{
+padding: 4px 4px;
+opacity: .4;
+}
+
+  /* Seccion CONTACT US */
+
+.contactUs-container {
+    padding: 100px 100px;
+    background-color:#ece3db ;
+    color: #051622 ;
+}
+
+.contactUs-nav{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.contactUS-address{
+    font-style: italic;
+}
+
+.form-container {
+    border-style:solid;
+    border-width: 1px;
+    border-color: #DEB992;
+    padding: 10px;
+
+}
+
+.form-details{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.form-input{
+    width: 350px;
+    height: 25px;
+}
+
+.form-input1{
+    width: 350px;
+    height: 150px;
+}
+
+  /* FOOTER */
+
+.footer-container{
+    background-color:#dea363;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social{
+    transform: scale(0.4, 0.4);
+}
+
+.footer-text{
+    color: black;
+    padding-top: 40px;
+    padding-right: 500px;
+}
+
+
