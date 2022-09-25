@@ -28,6 +28,12 @@ input,textarea{
     font-size: 0.7rem;
 }
 
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 /* Seccion Header */
 
 .header-container{
@@ -60,7 +66,7 @@ input,textarea{
 .home-text {
     height: 40%;
     font-weight: 300;
-    font-size: x-large; 
+    /* font-size: x-large;  */
     text-align: center;
     letter-spacing: .2em;
     line-height: 2em;
@@ -121,10 +127,10 @@ contact-info,.contact-email,.footer-text{
     font-size: 0.8rem;
 }
 
-  /* Seccion phrase */
+  /* Seccion Phrase */
 
 .phrase1-container{
-    padding: 1.5rem 4rem;
+    padding: 1.5rem 5rem;
     background-color:#051622;
     color: #ece3db ;
 }
@@ -134,7 +140,7 @@ contact-info,.contact-email,.footer-text{
   /* Seccion ABOUT US */
 
 .aboutUs-container {
-    padding: 8rem 3rem;
+    padding: 7rem 5rem;
     background-color:#ece3db ;
     color: #051622 ;
     display: flex;
@@ -143,7 +149,7 @@ contact-info,.contact-email,.footer-text{
 }
 
 .about-img{
-    padding: 0rem 2rem;
+    padding: 2rem 2rem;
 }
 
 .about-text{
@@ -190,6 +196,11 @@ contact-info,.contact-email,.footer-text{
     padding: 0.7rem;
 }
 
+.carousel-dimension{
+    width:80%;
+    margin: 0 auto;
+}
+
 
   /* Seccion PORTFOLIO */
 
@@ -220,7 +231,7 @@ contact-info,.contact-email,.footer-text{
   /* Seccion CONTACT US */
 
 .contactUs-container {
-    padding: 5rem 5rem;
+    padding: 7rem 5rem;
     background-color:#ece3db ;
     color: #051622 ;
 }
@@ -234,6 +245,7 @@ contact-info,.contact-email,.footer-text{
 }
 
 .contactUS-address{
+    padding: 1rem;
     line-height: 1em;
 }
 
@@ -265,6 +277,7 @@ contact-info,.contact-email,.footer-text{
   /* FOOTER */
 
 .footer-container{
+    padding: 0.4rem;
     background-color:#dea363;
     display: flex;
     justify-content:left;
@@ -273,7 +286,7 @@ contact-info,.contact-email,.footer-text{
 
 .footer-social{
     width: 40%;
-    transform: scale(0.3, 0.3);
+    transform: scale(0.5, 0.5);
     display: flex;
     justify-content:center;    
     align-items: center;
@@ -289,6 +302,39 @@ contact-info,.contact-email,.footer-text{
 
 /* ###############PANTALLA MOBILE################### */
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:675px) {
+    .experience-boxes{
+        display: none;
+    }
+    .phrase1-container{
+        padding: 1rem 2rem;
+    }
     
+    .aboutUs-container {
+        padding: 3rem 2rem; 
+    }
+    
+    .skills-container {
+        padding: 3rem 2rem;
+    }
+    
+    .experience-container {
+        padding: 3rem 2rem;    
+    }
+    
+    .portfolio-container {
+        padding: 3rem 2rem;
+    }
+    
+    .contactUs-container {
+        padding: 3rem 2rem;
+    }
 }
+
+
+@media screen and (min-width:676px) {
+    .carousel-container{
+        display: none;
+    }
+}
+
