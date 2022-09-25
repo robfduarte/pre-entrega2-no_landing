@@ -1,10 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
+/* Seteos Generales */
+
 *{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+    font-size: calc(15px + 0.390625vw);
+}
+
+img, iframe{
+    max-width: 100%;
+    height: auto;
+} 
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  h5{
+    font-size: 0.9rem;
+}
+
+input,textarea{
+    font-size: 0.7rem;
 }
 
 /* Seccion Header */
@@ -12,42 +33,30 @@
 .header-container{
     background-color: #051622;
     color:#DEB992;
-    font-size: 20px;
-    padding: 15px 15px;
+    font-size: 1rem;
+    padding: .2rem .2rem;
     display: flex;
     justify-content:right;
     position: sticky;
     top: 0;
-    
 }
 
-.header-nav{
-    width: 50%;
-    
+.nav-link {
+    color:#DEB992;
 }
 
-.menu li a:hover {
-    color:rgb(244, 154, 93) !important;
+.navbar-nav a:hover {
+    color:rgb(244, 154, 93);
 }
-
-.menu {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-}
-
-a {
-    color: inherit;
-    text-decoration: inherit;
-  }
 
   /* Seccion HOME */
 
 .home-container{
-    padding: 250px 40px;
+    padding: 13rem 3rem;
     background-color:#DEB992 ;
     color: #051622 ;
 }  
+
 .home-text {
     height: 40%;
     font-weight: 300;
@@ -58,16 +67,15 @@ a {
 }
 
 .home-text-main{
-    font-size: 60px;
+    font-size: 3rem;
     font-weight:900;
 }
 
 .home-social{
-    padding: 0px 350px;
     display: flex;
-    justify-content:space-between;    
+    justify-content:center;    
     transform: scale(0.5, 0.5);
-    opacity: 1;
+    align-items: center;
 }
 
 .social-icons:hover {
@@ -77,12 +85,10 @@ a {
 .home-whatsapp{
     transform: scale(0.8, 0.8);
     position: fixed;
-    width:80px;
-	height:80px;
-	bottom:50px;
-	right:50px;
-    opacity: 1;
-
+    width:5rem;
+	height:5rem;
+	bottom:3rem;
+	right:3rem;
 }
 
 /* Estilos de Textos */
@@ -90,26 +96,35 @@ a {
 .h1-heading{
     font-family: 'Cinzel', serif;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 1.5rem;
     letter-spacing: .1em;
     line-height: 1.5em;
 }
 
 .h2-heading{
     font-family: 'Cinzel', serif;
-    font-size: 25px;
+    font-size: 1.2rem;
     line-height: 1.5em;
 }
 
 .p-paragraph{
-    font-family:Arial, Helvetica, sans-serif
-    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}
+
+.p-experience{
+    font-size: 0.7rem;
+   }
+
+
+contact-info,.contact-email,.footer-text{
+    font-size: 0.8rem;
 }
 
   /* Seccion phrase */
 
 .phrase1-container{
-    padding: 40px 80px;
+    padding: 1.5rem 4rem;
     background-color:#051622;
     color: #ece3db ;
 }
@@ -119,69 +134,73 @@ a {
   /* Seccion ABOUT US */
 
 .aboutUs-container {
-    padding: 250px 40px;
+    padding: 8rem 3rem;
     background-color:#ece3db ;
     color: #051622 ;
     display: flex;
-    justify-content:center;    
+    flex-wrap: wrap;
+    justify-content: space-around;  
 }
 
 .about-img{
-    padding: 0px 100px;
+    padding: 0rem 2rem;
+}
+
+.about-text{
+    max-width: 800px;
 }
 
   /* Seccion SKILLS */
 
 .skills-container {
-    padding: 150px 100px;
+    padding: 7rem 5rem;
     background-color:#DEB992 ;
     color: #051622 ;
 }
 
 .tech-list{
-    padding-left: 100px;
+    font-size: 0.8rem;
+    padding-left: 6rem;
     list-style: square;
-    line-height: 1.5em;
+    line-height: 1.9em;
 }
 
   /* Seccion EXPERIENCE */
 
 .experience-container {
-    padding: 150px 100px;
+    padding: 7rem 5rem;
     background-color:#ece3db ;
     color: #051622 ;
 }
 
 .experience-boxes{
-    padding-top: 80px;
+    padding-top: 2rem;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 
 .experience-box{
     text-align: center;
-    width:250px;
+    width:14rem;
     border-style:solid;
     border-width: 2px;
     border-color: #DEB992;
-    padding: 10px;
+    padding: 0.7rem;
 }
 
-.p-experience{
- font-size: smaller;
-}
 
   /* Seccion PORTFOLIO */
 
 .portfolio-container {
-    padding: 100px 100px;
+    padding: 7rem 5rem;
     background-color:#DEB992 ;
     color: #051622 ;
 }
 
 .portofolio-images{
-    padding: 30px 0px;
+    padding: 1rem 0rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -192,52 +211,55 @@ a {
 }
 
 .portfolio-img{
-padding: 4px 4px;
-opacity: .4;
+    padding: 0.4rem 0.4rem;
+    opacity: .4;
+
 }
+
 
   /* Seccion CONTACT US */
 
 .contactUs-container {
-    padding: 100px 100px;
+    padding: 5rem 5rem;
     background-color:#ece3db ;
     color: #051622 ;
 }
 
 .contactUs-nav{
-    padding: 50px 0px;
+    padding: 3rem 0rem;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 
 }
 
 .contactUS-address{
-    font-style: italic;
+    line-height: 1em;
 }
 
 .form-container {
     border-style:solid;
     border-width: 1px;
     border-color: #DEB992;
-    padding: 10px;
+    padding: 0.4rem;
 
 }
 
 .form-details{
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-top: 0.7rem;
+    padding-bottom: 1rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
 }
 
 .form-input{
-    width: 350px;
-    height: 25px;
+    width: 17rem;
+    height: 1.8rem;
 }
 
 .form-input1{
-    width: 350px;
-    height: 150px;
+    width: 17rem;
+    height: 10rem;
 }
 
   /* FOOTER */
@@ -245,17 +267,28 @@ opacity: .4;
 .footer-container{
     background-color:#dea363;
     display: flex;
-    justify-content: space-between;
+    justify-content:left;
+    align-items: center;
 }
 
 .footer-social{
-    transform: scale(0.4, 0.4);
+    width: 40%;
+    transform: scale(0.3, 0.3);
+    display: flex;
+    justify-content:center;    
+    align-items: center;
+
+
 }
 
 .footer-text{
+    width:50%
     color: black;
-    padding-top: 40px;
-    padding-right: 500px;
 }
 
 
+/* ###############PANTALLA MOBILE################### */
+
+@media screen and (max-width:480px) {
+    
+}

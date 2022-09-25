@@ -5,25 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Coderhouse</title>
+    <!-- CDN Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- CSS -->
     <link rel="stylesheet" href="style/style.css">
+    <!-- ICON-->
     <link rel="icon" href="img/logo/logo2.png">
-
-
+ 
 </head>
 <body>
 
+
 <!-- Header-->
 <header class="header-container">
-    <nav class="header-nav">
-        <ul class="menu">
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#aboutUs">ABOUT US</a></li>
-            <li><a href="#skills">SKILLS</a></li>
-            <li><a href="#experience">EXPERIENCE</a></li>
-            <li><a href="#portfolio">PORTFOLIO</a></li>
-            <li><a href="#contactUs">CONTACT US</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="#home">HOME</a>
+              <a class="nav-link" href="#aboutUs">ABOUT US</a>
+              <a class="nav-link" href="#skills">SKILLS</a>
+              <a class="nav-link" href="#experience">EXPERIENCE</a>
+              <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+              <a class="nav-link" href="#contactUs">CONTACT US</a>
+            </div>
+          </div>
+        </div>
+      </nav>
 </header>
     
 
@@ -63,7 +76,7 @@
     <div class="about-img">
         <img src="img/profile/rsz_profile-pic.png" alt="Roberto Duarte">
     </div>
-    <div>
+    <div class="about-text">
         <h1 class="h1-heading">
             Hello, I am Roberto Duarte...
         </h1>
@@ -191,7 +204,7 @@
         <h2 class="h2-heading">
             A small gallery of recent projects chosen by me.
         </h2>
-        <p>
+        <p class="p-paragraph">
             I've done them all together with amazing people from companies around the globe. It's only a drop in the ocean compared to the entire list.
         </p>
     </div>
@@ -242,20 +255,21 @@
                 </div>
             </form>
             <div class="contactUS-address">
-                <h4>Address:</h4>
-                <address>
+                
+                <h5><strong>Address:</strong></h5>
+                <contact-info>
                     Av. Pres. Figueroa Alcorta 7597<br>
                     Piso 9, Depto 12. Nuñez<br>
                     C1428 CABA. ARG<br><br>
-                </adress>
-                <h4>Call us:</h4>
-                <phone>
+                </contact-info>
+                <h5><strong>Call us:</strong></h5>
+                <contact-info>
                     +54 911 65091218<br><br>
-                </phone>
-                <h4>Email us:</h4>
-                <email>
-                    <a href="mailto:roberto.duarte@codermail.com">roberto.duarte@codermail.com</a><br>
-                </email>
+                </contact-info>
+                <h5><strong>Email us:</strong></h5>
+                <contact-info>
+                    <a class="contact-email" href="mailto:roberto.duarte@codermail.com">roberto.duarte@codermail.com</a><br>
+                </contact-info>
             </div>
             <div class="contactUs-gmap">
                 <iframe
@@ -279,10 +293,13 @@
         <a href="https://www.instagram.com" target="_blank" class="social-icons"><img src="img/social/rsz_instagram.png" alt="Instagram"></a>
     </div>
     <div class="footer-text">
-        <h4>Copyright © 2022 | All Rights Reserved</h4>
+        Copyright © 2022 | All Rights Reserved
     </div>
 
 </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
 </body>
 </html>
