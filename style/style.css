@@ -217,15 +217,47 @@ contact-info,.contact-email,.footer-text{
     justify-content: center;
 }
 
-.portfolio-img:hover {
-    opacity: 1;
-}
 
-.portfolio-img{
+.portfolio-img {
     padding: 0.4rem 0.4rem;
-    opacity: .4;
-
-}
+    position: relative;
+    width: auto%;
+  }
+  
+.image {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#051622;
+  }
+  
+  .portfolio-img:hover .overlay {
+    opacity: 0.9;
+  }
+  
+  .text {
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 
   /* Seccion CONTACT US */
@@ -290,8 +322,6 @@ contact-info,.contact-email,.footer-text{
     display: flex;
     justify-content:center;    
     align-items: center;
-
-
 }
 
 .footer-text{
@@ -300,7 +330,7 @@ contact-info,.contact-email,.footer-text{
 }
 
 
-/* ###############PANTALLA MOBILE################### */
+/* Media Querys Mobile*/
 
 @media screen and (max-width:675px) {
     .experience-boxes{
