@@ -45,6 +45,7 @@ p {
     justify-content:right;
     position: sticky;
     top: 0;
+    z-index:300;
 }
 
 .nav-link {
@@ -66,7 +67,6 @@ p {
 .home-text {
     height: 40%;
     font-weight: 300;
-    /* font-size: x-large;  */
     text-align: center;
     letter-spacing: .2em;
     line-height: 2em;
@@ -140,7 +140,7 @@ contact-info,.contact-email,.footer-text{
   /* Seccion ABOUT US */
 
 .aboutUs-container {
-    padding: 7rem 5rem;
+    padding: 6rem 5rem;
     background-color:#ece3db ;
     color: #051622 ;
     display: flex;
@@ -149,11 +149,12 @@ contact-info,.contact-email,.footer-text{
 }
 
 .about-img{
-    padding: 2rem 2rem;
+
+    padding: 1rem 1rem;
 }
 
 .about-text{
-    max-width: 800px;
+    max-width: 30rem;
 }
 
   /* Seccion SKILLS */
@@ -221,7 +222,7 @@ contact-info,.contact-email,.footer-text{
 .portfolio-img {
     padding: 0.4rem 0.4rem;
     position: relative;
-    width: auto%;
+    width: auto;
   }
   
 .image {
@@ -325,7 +326,7 @@ contact-info,.contact-email,.footer-text{
 }
 
 .footer-text{
-    width:50%
+    width:50%;
     color: black;
 }
 
