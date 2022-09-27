@@ -248,11 +248,6 @@ contact-info,.contact-email,.footer-text{
     margin: 0 auto;
 }
 
-.carousel-dimension1{
-    width:100%;
-    /* margin: 0 auto; */
-}
-
 .carousel-control-next,
 .carousel-control-prev,.carousel-caption{
     filter: invert(100%);
@@ -273,8 +268,7 @@ contact-info,.contact-email,.footer-text{
     justify-content: center;
 }
 
-
-.portfolio-img {
+.portfolio-img{
     padding: 0.4rem 0.4rem;
     position: relative;
     width: auto;
@@ -373,20 +367,23 @@ contact-info,.contact-email,.footer-text{
 }
 
 .footer-social{
-    width: 70%;
-    transform: scale(0.5, 0.5);
+    width: 80%;
+    transform: scale(0.6, 0.6);
     display: flex;
     justify-content:center;    
-    align-items: center;
-    gap: 1rem; 
+    align-items:flex-end;
+    gap: 2rem; 
 }
 
 .footer-text{
-    width:40%;
+    width:20%;
     color: black;
     text-align: left;
 }
 
+.footer-text-end{
+    font-size: 0.5rem;
+}
 
 /* Media Querys Mobile*/
 
