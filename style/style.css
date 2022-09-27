@@ -48,6 +48,10 @@ p {
     z-index:300;
 }
 
+.container-fluid{
+    padding-right: 4rem;
+}
+
 .nav-link {
     color:#DEB992;
 }
@@ -59,7 +63,7 @@ p {
   /* Seccion HOME */
 
 .home-container{
-    padding: 13rem 3rem;
+    padding: 10rem 3rem;
     background-color:#DEB992 ;
     color: #051622 ;
 }  
@@ -245,6 +249,21 @@ contact-info,.contact-email,.footer-text{
 }
 
 
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 2rem;
+  font-weight: bolder;
+  color: rgb(244, 154, 93)
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 2rem;
+  font-weight: bolder;
+  color: rgb(244, 154, 93)
+}
+
   /* Seccion PORTFOLIO */
 
 .portfolio-container {
@@ -360,7 +379,7 @@ contact-info,.contact-email,.footer-text{
 }
 
 .footer-social{
-    width: 40%;
+    width: 70%;
     transform: scale(0.5, 0.5);
     display: flex;
     justify-content:center;    
@@ -369,8 +388,9 @@ contact-info,.contact-email,.footer-text{
 }
 
 .footer-text{
-    width:50%;
+    width:40%;
     color: black;
+    text-align: left;
 }
 
 
