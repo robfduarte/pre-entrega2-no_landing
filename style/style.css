@@ -386,7 +386,7 @@ contact-info,.contact-email,.footer-text{
 /* Media Querys Mobile*/
 
 @media screen and (max-width:675px) {
-    .experience-boxes{
+    .experience-boxes,.portofolio-images{
         display: none;
     }
     .phrase1-container{
@@ -416,7 +416,7 @@ contact-info,.contact-email,.footer-text{
 
 
 @media screen and (min-width:676px) {
-    .carousel-container{
+    .carousel-container,.carousel-container1{
         display: none;
     }
 }
