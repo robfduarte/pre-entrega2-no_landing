@@ -254,7 +254,7 @@ contact-info,.contact-email,.footer-text{
 }
 
 .carousel-control-next,
-.carousel-control-prev /*, .carousel-indicators */ {
+.carousel-control-prev,.carousel-caption{
     filter: invert(100%);
 }
 
@@ -422,7 +422,7 @@ contact-info,.contact-email,.footer-text{
 
 
 @media screen and (min-width:676px) {
-    .carousel-container,.carousel-container1{
+    .carousel-container,.carousel{
         display: none;
     }
 }
