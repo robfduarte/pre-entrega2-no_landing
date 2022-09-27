@@ -244,7 +244,7 @@ contact-info,.contact-email,.footer-text{
 }
 
 .carousel-dimension{
-    width:80%;
+    width:70%;
     margin: 0 auto;
 }
 
@@ -389,6 +389,7 @@ contact-info,.contact-email,.footer-text{
     .experience-boxes,.portofolio-images{
         display: none;
     }
+
     .phrase1-container{
         padding: 1rem 2rem;
     }
