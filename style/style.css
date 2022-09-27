@@ -228,9 +228,9 @@ contact-info,.contact-email,.footer-text{
 
 .experience-boxes{
     padding-top: 2rem;
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
 
 }
 
@@ -387,7 +387,7 @@ contact-info,.contact-email,.footer-text{
 
 /* Media Querys Mobile*/
 
-@media screen and (max-width:675px) {
+@media screen and (max-width:500px) {
     .experience-boxes,.portofolio-images{
         display: none;
     }
@@ -418,7 +418,7 @@ contact-info,.contact-email,.footer-text{
 }
 
 
-@media screen and (min-width:676px) {
+@media screen and (min-width:501px) {
     .carousel-container,.carousel{
         display: none;
     }
