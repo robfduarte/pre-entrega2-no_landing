@@ -77,16 +77,58 @@ p {
     font-weight:900;
 }
 
+.home-text-second{
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, rgb(244, 154, 93), #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 10s ease-in infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    }
+
+    @keyframes animate {
+        0% {
+          background-position: -500%;
+        }
+        100% {
+          background-position: 500%;
+        }}
+
+.home-text-second1{
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, rgb(244, 154, 93), #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 10s ease-out infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    }
+        
+    @keyframes animate {
+        0% {
+            background-position: -500%;
+        }
+        100% {
+            background-position: 500%;
+        }}
+
 .home-social{
     display: flex;
-    justify-content:center;    
+    justify-content:center;   
+    gap: 1rem; 
     transform: scale(0.5, 0.5);
     align-items: center;
+    transition: transform .2s; 
 }
 
 .social-icons:hover {
-    opacity: .4;
+  transform: scale(1.2); 
 }
+
+.social-icons1:hover {
+    opacity: .8;
+} 
 
 .home-whatsapp{
     transform: scale(0.8, 0.8);
@@ -94,7 +136,7 @@ p {
     width:5rem;
 	height:5rem;
 	bottom:3rem;
-	right:3rem;
+	right:3rem; 
 }
 
 /* Estilos de Textos */
@@ -323,6 +365,7 @@ contact-info,.contact-email,.footer-text{
     display: flex;
     justify-content:center;    
     align-items: center;
+    gap: 1rem; 
 }
 
 .footer-text{
