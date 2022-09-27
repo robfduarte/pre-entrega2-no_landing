@@ -248,6 +248,11 @@ contact-info,.contact-email,.footer-text{
     margin: 0 auto;
 }
 
+.carousel-dimension1{
+    width:100%;
+    /* margin: 0 auto; */
+}
+
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
