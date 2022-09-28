@@ -34,7 +34,7 @@ p {
     text-justify: inter-word;
 }
 
-/* Seccion Header */
+/**** Seccion Header ****/
 
 .header-container{
     background-color: #051622;
@@ -60,7 +60,7 @@ p {
     color:rgb(244, 154, 93);
 }
 
-  /* Seccion HOME */
+/**** Seccion HOME ****/
 
 .home-container{
     padding: 10rem 3rem;
@@ -143,9 +143,9 @@ p {
 	right:3rem; 
 }
 
-/* Estilos de Textos */
+/**** Estilos de Textos ****/
 
-.h1-heading{
+.hx-heading{
     font-family: 'Cinzel', serif;
     font-weight: bold;
     font-size: 1.5rem;
@@ -173,7 +173,8 @@ contact-info,.contact-email,.footer-text{
     font-size: 0.8rem;
 }
 
-  /* Seccion Phrase */
+
+/**** Seccion Phrase ****/
 
 .phrase1-container{
     padding: 1.5rem 5rem;
@@ -181,9 +182,7 @@ contact-info,.contact-email,.footer-text{
     color: #ece3db ;
 }
 
-
-
-  /* Seccion ABOUT ME */
+/**** Seccion ABOUT ME ****/
 
 .aboutUs-container {
     padding: 6rem 5rem;
@@ -203,7 +202,7 @@ contact-info,.contact-email,.footer-text{
     max-width: 30rem;
 }
 
-  /* Seccion SKILLS */
+/**** Seccion SKILLS ****/
 
 .skills-container {
     padding: 7rem 5rem;
@@ -218,7 +217,7 @@ contact-info,.contact-email,.footer-text{
     line-height: 1.9em;
 }
 
-  /* Seccion EXPERIENCE */
+/**** Seccion EXPERIENCE ****/
 
 .experience-container {
     padding: 7rem 5rem;
@@ -253,7 +252,7 @@ contact-info,.contact-email,.footer-text{
     filter: invert(100%);
 }
 
-  /* Seccion PORTFOLIO */
+/**** Seccion PORTFOLIO ****/
 
 .portfolio-container {
     padding: 7rem 5rem;
@@ -310,7 +309,7 @@ contact-info,.contact-email,.footer-text{
   }
 
 
-  /* Seccion CONTACT US */
+/**** Seccion CONTACT US ****/
 
 .contactUs-container {
     padding: 7rem 5rem;
@@ -323,7 +322,6 @@ contact-info,.contact-email,.footer-text{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
 }
 
 .contactUS-address{
@@ -359,7 +357,8 @@ contact-info,.contact-email,.footer-text{
 .contactUs-gmap{
     padding: 0.7rem;
 }
-  /* FOOTER */
+  
+/**** Seccion FOOTER *****/
 
 .footer-container{
     padding: 0.4rem;
@@ -388,7 +387,7 @@ contact-info,.contact-email,.footer-text{
     font-size: 0.5rem;
 }
 
-/* Media Querys Mobile*/
+/**** Media Querys Mobile****/
 
 @media screen and (max-width:500px) {
     .experience-boxes,.portofolio-images{
