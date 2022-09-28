@@ -356,6 +356,9 @@ contact-info,.contact-email,.footer-text{
     height: 10rem;
 }
 
+.contactUs-gmap{
+    padding: 0.7rem;
+}
   /* FOOTER */
 
 .footer-container{
