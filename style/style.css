@@ -66,6 +66,7 @@ p {
     padding: 10rem 3rem;
     background-color:#DEB992 ;
     color: #051622 ;
+    min-height: 100vh;
 }  
 
 .home-text {
@@ -191,6 +192,7 @@ contact-info,.contact-email,.footer-text{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;  
+    min-height: 100vh;
 }
 
 .about-img{
@@ -208,6 +210,7 @@ contact-info,.contact-email,.footer-text{
     padding: 7rem 5rem;
     background-color:#DEB992 ;
     color: #051622 ;
+    min-height: 100vh;
 }
 
 .tech-list{
@@ -223,6 +226,7 @@ contact-info,.contact-email,.footer-text{
     padding: 7rem 5rem;
     background-color:#ece3db ;
     color: #051622 ;
+    min-height: 100vh;
 }
 
 .experience-boxes{
@@ -258,6 +262,7 @@ contact-info,.contact-email,.footer-text{
     padding: 7rem 5rem;
     background-color:#DEB992 ;
     color: #051622 ;
+    min-height: 100vh;
 }
 
 .portofolio-images{
@@ -315,6 +320,7 @@ contact-info,.contact-email,.footer-text{
     padding: 7rem 5rem;
     background-color:#ece3db ;
     color: #051622 ;
+    min-height: 100vh;
 }
 
 .contactUs-nav{
@@ -361,7 +367,6 @@ contact-info,.contact-email,.footer-text{
 /**** Seccion FOOTER *****/
 
 .footer-container{
-    padding: 0.4rem;
     background-color:#dea363;
     display: flex;
     justify-content:left;
@@ -370,7 +375,7 @@ contact-info,.contact-email,.footer-text{
 
 .footer-social{
     width: 80%;
-    transform: scale(0.6, 0.6);
+    transform: scale(0.4, 0.4);
     display: flex;
     justify-content:center;    
     align-items:flex-end;
@@ -387,6 +392,7 @@ contact-info,.contact-email,.footer-text{
     font-size: 0.5rem;
 }
 
+
 /**** Media Querys Mobile****/
 
 @media screen and (max-width:500px) {
@@ -394,6 +400,10 @@ contact-info,.contact-email,.footer-text{
         display: none;
     }
 
+    .home-social{
+        padding-top: 5rem;
+    }
+    
     .phrase1-container{
         padding: 1rem 2rem;
     }
