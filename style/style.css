@@ -427,6 +427,10 @@ contact-info,.contact-email,.footer-text{
     .contactUs-container {
         padding: 3rem 2rem;
     }
+
+    .footer-social{
+        transform: scale(0.6, 0.6);
+    }
 }
 
 
